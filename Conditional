@@ -1,0 +1,13 @@
+#!/bin/bash
+
+directory_list=("/home/austyn/Trial-and-error/conditional_output")
+   
+file_list=("loop_text")
+
+if [[ -d "$/home/austyn/Trial-and-error/conditional_output" ]] 
+then echo "/home/austyn/Trial-and-error/conditional_output exists"
+else  mkdir ${directory_list[*]}
+fi
+
+ for i in $file_list; do
+    touch $i.txt
