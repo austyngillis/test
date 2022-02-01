@@ -2,7 +2,7 @@
 
 directory_list=("/home/austyn/Trial-and-error/conditional_output")
    
-file_list=("/home/austyn/Trial-and-error/conditional_output/loop")
+file_list=("/home/austyn/Trial-and-error/conditional_output/loop" ""/home/austyn/Trial-and-error/conditional_output/loop2" ""/home/austyn/Trial-and-error/conditional_output/loop3")
 
 if [[ -d "$/home/austyn/Trial-and-error/conditional_output" ]] 
 then echo "/home/austyn/Trial-and-error/conditional_output exists"
